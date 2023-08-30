@@ -1,2 +1,2 @@
-# osr-example
-An OML example project describing the Open Source Rover mission
+# sirius-example
+An OML example showing an Eclipse-based Sirius viewpoint
