@@ -13,7 +13,7 @@
     <semanticResources>src/oml/example.com/description/family1.oml</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_5VAIQEdPEe6swf2V36wjBg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_obXgUFHREe61jdXtFp1DQg" name="basicfamily" repPath="#_obNIQFHREe61jdXtFp1DQg" changeId="1694567534839">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_obXgUFHREe61jdXtFp1DQg" name="basicfamily" repPath="#_obNIQFHREe61jdXtFp1DQg" changeId="1694722242356">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']"/>
         <target xmi:type="oml:Vocabulary" href="src/oml/example.com/vocabulary/basicfamily.oml#/"/>
       </ownedRepresentationDescriptors>
@@ -484,18 +484,18 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_o1AvaFHREe61jdXtFp1DQg" type="4001" element="_o03lcFHREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o05aoFHREe61jdXtFp1DQg">
           <children xmi:type="notation:Node" xmi:id="_o1AvbFHREe61jdXtFp1DQg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvbVHREe61jdXtFp1DQg" x="27" y="-45"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvbVHREe61jdXtFp1DQg" x="24" y="-45"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_o1AvblHREe61jdXtFp1DQg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1Avb1HREe61jdXtFp1DQg" x="21" y="47"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1Avb1HREe61jdXtFp1DQg" x="22" y="40"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_o1AvcFHREe61jdXtFp1DQg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvcVHREe61jdXtFp1DQg" x="20"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvcVHREe61jdXtFp1DQg" x="19"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1AvaVHREe61jdXtFp1DQg" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_o1AvalHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
           <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sYFHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1Ava1HREe61jdXtFp1DQg" points="[89, 24, 11, -90]$[129, 24, 51, -90]$[129, 114, 51, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1Ava1HREe61jdXtFp1DQg" points="[89, 31, 11, -83]$[129, 31, 51, -83]$[129, 114, 51, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1BWcFHREe61jdXtFp1DQg" id="(0.14423076923076922,0.5905511811023622)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1BWcVHREe61jdXtFp1DQg" id="(0.19626168224299065,0.0)"/>
         </edges>
@@ -518,37 +518,53 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_o1BWflHREe61jdXtFp1DQg" type="4001" element="_o04Mh1HREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o06ow1HREe61jdXtFp1DQg">
           <children xmi:type="notation:Node" xmi:id="_o1BWglHREe61jdXtFp1DQg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWg1HREe61jdXtFp1DQg" x="32" y="38"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWg1HREe61jdXtFp1DQg" x="29" y="38"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_o1BWhFHREe61jdXtFp1DQg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWhVHREe61jdXtFp1DQg" x="392" y="-54"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWhVHREe61jdXtFp1DQg" x="393" y="-47"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_o1BWhlHREe61jdXtFp1DQg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWh1HREe61jdXtFp1DQg" x="-1" y="-197"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWh1HREe61jdXtFp1DQg" x="5" y="-197"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1BWf1HREe61jdXtFp1DQg" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_o1BWgFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
           <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sZVHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1BWgVHREe61jdXtFp1DQg" points="[-29, 63, 88, -129]$[-83, 63, 34, -129]$[-83, 153, 34, -39]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1BWgVHREe61jdXtFp1DQg" points="[-29, 70, 88, -122]$[-83, 70, 34, -122]$[-83, 153, 34, -39]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9gFHREe61jdXtFp1DQg" id="(0.2860576923076923,0.28346456692913385)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9gVHREe61jdXtFp1DQg" id="(-0.060397553516819656,1.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_o1B9glHREe61jdXtFp1DQg" type="4001" element="_o04zkFHREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o06BtFHREe61jdXtFp1DQg">
           <children xmi:type="notation:Node" xmi:id="_o1B9hlHREe61jdXtFp1DQg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9h1HREe61jdXtFp1DQg" x="32" y="-11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9h1HREe61jdXtFp1DQg" x="16" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_o1B9iFHREe61jdXtFp1DQg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9iVHREe61jdXtFp1DQg" x="20" y="-11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9iVHREe61jdXtFp1DQg" x="22" y="-11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_o1B9ilHREe61jdXtFp1DQg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9i1HREe61jdXtFp1DQg" x="-21" y="2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9i1HREe61jdXtFp1DQg" x="-23" y="2"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1B9g1HREe61jdXtFp1DQg" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_o1B9hFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
           <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sZFHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1B9hVHREe61jdXtFp1DQg" points="[45, -48, 57, -57]$[85, -48, 97, -57]$[85, -21, 97, -30]$[45, -21, 57, -30]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1B9hVHREe61jdXtFp1DQg" points="[45, -48, 57, -57]$[85, -48, 97, -57]$[85, -32, 97, -41]$[45, -32, 57, -41]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9jFHREe61jdXtFp1DQg" id="(0.5673076923076923,0.5241540753351777)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9jVHREe61jdXtFp1DQg" id="(0.4543269230769231,0.5905511811023622)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gU1PAFM6Ee6q-dVgdUODmQ" type="4001" element="_gUyLwlM6Ee6q-dVgdUODmQ" source="_o06BtFHREe61jdXtFp1DQg" target="_o06BtFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_gU2dIFM6Ee6q-dVgdUODmQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gU2dIVM6Ee6q-dVgdUODmQ" x="15" y="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gU3EMFM6Ee6q-dVgdUODmQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gU3EMVM6Ee6q-dVgdUODmQ" x="24" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gU3EMlM6Ee6q-dVgdUODmQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gU3EM1M6Ee6q-dVgdUODmQ" x="-20" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gU1PAVM6Ee6q-dVgdUODmQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gU1PAlM6Ee6q-dVgdUODmQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gU1PA1M6Ee6q-dVgdUODmQ" points="[52, 0, 52, 0]$[90, 0, 90, 0]$[90, 16, 90, 16]$[52, 16, 52, 16]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gU8jwFM6Ee6q-dVgdUODmQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gU8jwVM6Ee6q-dVgdUODmQ" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -566,7 +582,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0tNYFHREe61jdXtFp1DQg" name="Person" tooltipText="Person" outgoingEdges="_o02-YVHREe61jdXtFp1DQg _o03lcFHREe61jdXtFp1DQg _o04Mh1HREe61jdXtFp1DQg _o04zkFHREe61jdXtFp1DQg" incomingEdges="_o02-ZFHREe61jdXtFp1DQg _o02-Z1HREe61jdXtFp1DQg _o04MgFHREe61jdXtFp1DQg _o04zkFHREe61jdXtFp1DQg">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0tNYFHREe61jdXtFp1DQg" name="Person" tooltipText="Person" outgoingEdges="_o02-YVHREe61jdXtFp1DQg _o03lcFHREe61jdXtFp1DQg _o04Mh1HREe61jdXtFp1DQg _o04zkFHREe61jdXtFp1DQg _gUyLwlM6Ee6q-dVgdUODmQ" incomingEdges="_o02-ZFHREe61jdXtFp1DQg _o02-Z1HREe61jdXtFp1DQg _o04MgFHREe61jdXtFp1DQg _o04zkFHREe61jdXtFp1DQg _gUyLwlM6Ee6q-dVgdUODmQ">
       <target xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Person"/>
       <semanticElements xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Person"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -687,6 +703,16 @@
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_o04zklHREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_o04zk1HREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_gUyLwlM6Ee6q-dVgdUODmQ" name="cousin" sourceNode="_o0tNYFHREe61jdXtFp1DQg" targetNode="_o0tNYFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#cousin"/>
+      <semanticElements xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#cousin"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_gUyLw1M6Ee6q-dVgdUODmQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_gUyLxFM6Ee6q-dVgdUODmQ" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_gUyLxVM6Ee6q-dVgdUODmQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']"/>
     </ownedDiagramElements>
