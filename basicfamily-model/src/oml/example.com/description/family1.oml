@@ -1,0 +1,67 @@
+description <http://example.com/description/family1#> as starter {
+
+	uses <http://example.com/vocabulary/basicfamily#> as basicfamily
+
+	instance family1 : basicfamily:Family [
+		basicfamily:members Paul
+		basicfamily:members Isa
+		basicfamily:members Elias
+		basicfamily:members Lea
+		basicfamily:members Dave
+		basicfamily:members Alain
+		basicfamily:members Bryan
+		basicfamily:members Fiona
+		basicfamily:members Katell
+		basicfamily:members Clara
+		basicfamily:members Albert
+		basicfamily:members Jane
+		basicfamily:members Peter
+	]
+
+	instance Paul : basicfamily:Man
+
+	instance Isa : basicfamily:Woman
+
+	instance Elias : basicfamily:Man [
+		basicfamily:father Paul
+		basicfamily:mother Isa
+	]
+
+	instance Lea : basicfamily:Woman [
+		basicfamily:father Paul
+		basicfamily:mother Isa
+	]
+
+	instance Dave : basicfamily:Man [
+		basicfamily:father Elias
+	]
+
+	instance Alain : basicfamily:Man [
+		basicfamily:father Dave
+		basicfamily:mother Katell
+	]
+
+	instance Bryan : basicfamily:Man [
+		basicfamily:father Elias
+	]
+
+	instance Fiona : basicfamily:Woman [
+		basicfamily:father Elias
+	]
+
+	instance Katell : basicfamily:Woman
+
+	instance Clara : basicfamily:Woman [
+		basicfamily:father Elias
+	]
+
+	instance Albert : basicfamily:Man
+
+	instance Jane : basicfamily:Woman [
+		basicfamily:mother Fiona
+	]
+
+	instance Peter : basicfamily:Man [
+		basicfamily:mother Clara
+	]
+}

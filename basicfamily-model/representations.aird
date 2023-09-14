@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oml="http://opencaesar.io/oml" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_1xYicEdNEe6swf2V36wjBg" selectedViews="_5VAIQEdPEe6swf2V36wjBg _lsGYgFHjEe662pXPYE32HA" version="15.1.0.202211301600">
+    <semanticResources>build/oml/www.w3.org/1999/02/22-rdf-syntax-ns.oml</semanticResources>
+    <semanticResources>build/oml/purl.org/dc/elements/1.1.oml</semanticResources>
+    <semanticResources>build/oml/www.w3.org/2001/XMLSchema.oml</semanticResources>
+    <semanticResources>build/oml/www.w3.org/2003/11/swrlb.oml</semanticResources>
+    <semanticResources>build/oml/www.w3.org/2000/01/rdf-schema.oml</semanticResources>
+    <semanticResources>build/oml/www.w3.org/2002/07/owl.oml</semanticResources>
+    <semanticResources>src/oml/example.com/description/bundle.oml</semanticResources>
+    <semanticResources>src/oml/example.com/vocabulary/bundle.oml</semanticResources>
+    <semanticResources>src/oml/example.com/vocabulary/basicfamily.oml</semanticResources>
+    <semanticResources>src/oml/example.com/description/family1.oml</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_5VAIQEdPEe6swf2V36wjBg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_obXgUFHREe61jdXtFp1DQg" name="basicfamily" repPath="#_obNIQFHREe61jdXtFp1DQg" changeId="1694567534839">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']"/>
+        <target xmi:type="oml:Vocabulary" href="src/oml/example.com/vocabulary/basicfamily.oml#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_0bB8QEeJEe6fHuLftJNx8Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Zn4GMFF2Ee6dvsaFo0-29Q" name="OCR Process" repPath="#_Zn24EFF2Ee6dvsaFo0-29Q" changeId="1694528605341">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']"/>
+        <target xmi:type="oml:Description" href="src/oml/example.com/osr/description/osr.oml#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WSkFUlF4Ee6dvsaFo0-29Q" name="OSR Diagram" repPath="#_WSkFUFF4Ee6dvsaFo0-29Q" changeId="1694531140229">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']"/>
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#osr_project"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_lsGYgFHjEe662pXPYE32HA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oO1bAFHjEe662pXPYE32HA" name="Persons diagram" repPath="#_oOvUYFHjEe662pXPYE32HA" changeId="1694700183810">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']"/>
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#family1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oDjJgFIOEe67NfYXqozjyw" name="Persons table" repPath="#_oDbNsFIOEe67NfYXqozjyw" changeId="1694700183810">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']"/>
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#family1"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_Zn24EFF2Ee6dvsaFo0-29Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Zn6icFF2Ee6dvsaFo0-29Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Zn6icVF2Ee6dvsaFo0-29Q" type="Sirius" element="_Zn24EFF2Ee6dvsaFo0-29Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Zn8XoVF2Ee6dvsaFo0-29Q" visible="false" type="2002" element="_Zn7JgFF2Ee6dvsaFo0-29Q">
+          <children xmi:type="notation:Node" xmi:id="_Zn8XpFF2Ee6dvsaFo0-29Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Zn8-sFF2Ee6dvsaFo0-29Q" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_Zn8-s1F2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wkFF2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn8-tlF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn8-t1F2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn8-uFF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn8-uVF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn8-ulF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn8-tFF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn8-tVF2Ee6dvsaFo0-29Q"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Zn8-u1F2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wk1F2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn8-vlF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn8-v1F2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn8-wFF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn8-wVF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn8-wlF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn8-vFF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn8-vVF2Ee6dvsaFo0-29Q" x="40"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Zn8-w1F2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wllF2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn8-xlF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn8-x1F2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn8-yFF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn8-yVF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn8-ylF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn8-xFF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn8-xVF2Ee6dvsaFo0-29Q" x="80"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Zn8-y1F2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wmVF2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn8-zlF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn8-z1F2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn8-0FF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn8-0VF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn8-0lF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn8-zFF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn8-zVF2Ee6dvsaFo0-29Q" x="120"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Zn8-01F2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wnFF2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn9lwFF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn9lwVF2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn9lwlF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn9lw1F2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn9lxFF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn8-1FF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn8-1VF2Ee6dvsaFo0-29Q" x="160"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Zn9lxVF2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wn1F2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn9lyFF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn9lyVF2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn9lylF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn9ly1F2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn9lzFF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn9lxlF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn9lx1F2Ee6dvsaFo0-29Q" x="200"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Zn9lzVF2Ee6dvsaFo0-29Q" visible="false" type="3008" element="_Zn7wolF2Ee6dvsaFo0-29Q">
+              <children xmi:type="notation:Node" xmi:id="_Zn9l0FF2Ee6dvsaFo0-29Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Zn9l0VF2Ee6dvsaFo0-29Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Zn9l0lF2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn9l01F2Ee6dvsaFo0-29Q"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_Zn9l1FF2Ee6dvsaFo0-29Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn9lzlF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn9lz1F2Ee6dvsaFo0-29Q" x="240"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Zn8-sVF2Ee6dvsaFo0-29Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Zn8-slF2Ee6dvsaFo0-29Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Zn8XolF2Ee6dvsaFo0-29Q" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zn8Xo1F2Ee6dvsaFo0-29Q" x="90" y="90"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Zn6iclF2Ee6dvsaFo0-29Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Zn7wpVF2Ee6dvsaFo0-29Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Zn8XoFF2Ee6dvsaFo0-29Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7JgFF2Ee6dvsaFo0-29Q" visible="false" childrenPresentation="HorizontalStack">
+      <target xmi:type="oml:Description" href="src/oml/example.com/osr/description/osr.oml#/"/>
+      <semanticElements xmi:type="oml:Description" href="src/oml/example.com/osr/description/osr.oml#/"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7JgVF2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" backgroundStyle="Liquid" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wkFF2Ee6dvsaFo0-29Q" name="stage1" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage1"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7wkVF2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wk1F2Ee6dvsaFo0-29Q" name="stage2" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage2"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7wlFF2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wllF2Ee6dvsaFo0-29Q" name="stage3" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage3"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7wl1F2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wmVF2Ee6dvsaFo0-29Q" name="stage4" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage4"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage4"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7wmlF2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wnFF2Ee6dvsaFo0-29Q" name="stage5" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage5"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage5"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7wnVF2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wn1F2Ee6dvsaFo0-29Q" name="stage6" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage6"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage6"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7woFF2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Zn7wolF2Ee6dvsaFo0-29Q" name="stage7" visible="false">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage7"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage7"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Zn7wo1F2Ee6dvsaFo0-29Q" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer/@containerMappings[name='Description']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Zn3fIFF2Ee6dvsaFo0-29Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process']/@defaultLayer"/>
+    <target xmi:type="oml:Description" href="src/oml/example.com/osr/description/osr.oml#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_WSkFUFF4Ee6dvsaFo0-29Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WSksYVF4Ee6dvsaFo0-29Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_WSksYlF4Ee6dvsaFo0-29Q" type="Sirius" element="_WSkFUFF4Ee6dvsaFo0-29Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Elk0QFF6Ee6OHYnja6O63A" type="2002" element="_dAoN4FF6Ee6OHYnja6O63A">
+          <children xmi:type="notation:Node" xmi:id="_ElnQgFF6Ee6OHYnja6O63A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_ElnQgVF6Ee6OHYnja6O63A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_gCvzsFF9Ee6OHYnja6O63A" type="3008" element="_gAM2AlF9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCvzs1F9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCwawFF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCwawVF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCwawlF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCwaw1F9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCvzsVF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCvzslF9Ee6OHYnja6O63A" height="226"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gCwaxFF9Ee6OHYnja6O63A" type="3008" element="_gANdElF9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCwax1F9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCwayFF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCwayVF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCwaylF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCway1F9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCwaxVF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCwaxlF9Ee6OHYnja6O63A" x="40" height="226"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gCwazFF9Ee6OHYnja6O63A" type="3008" element="_gANdFVF9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCwaz1F9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCwa0FF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCwa0VF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCwa0lF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCxB0FF9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCwazVF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCwazlF9Ee6OHYnja6O63A" x="80" height="226"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gCxB0VF9Ee6OHYnja6O63A" type="3008" element="_gAOEIFF9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCxB1FF9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCxB1VF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCxB1lF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCxB11F9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCxB2FF9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCxB0lF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCxB01F9Ee6OHYnja6O63A" x="120" width="95" height="226"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gCxB2VF9Ee6OHYnja6O63A" type="3008" element="_gAOEI1F9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCxB3FF9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCxB3VF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCxB3lF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCxB31F9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCxB4FF9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCxB2lF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCxB21F9Ee6OHYnja6O63A" x="215" width="90" height="226"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gCxB4VF9Ee6OHYnja6O63A" type="3008" element="_gAOEJlF9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCxB5FF9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCxB5VF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCxB5lF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCxB51F9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCxB6FF9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCxB4lF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCxB41F9Ee6OHYnja6O63A" x="305" width="108" height="226"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gCxB6VF9Ee6OHYnja6O63A" type="3008" element="_gAOEKVF9Ee6OHYnja6O63A">
+              <children xmi:type="notation:Node" xmi:id="_gCxB7FF9Ee6OHYnja6O63A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_gCxB7VF9Ee6OHYnja6O63A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_gCxB7lF9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_gCxB71F9Ee6OHYnja6O63A"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_gCxB8FF9Ee6OHYnja6O63A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gCxB6lF9Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCxB61F9Ee6OHYnja6O63A" x="413" width="108" height="226"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ElnQglF6Ee6OHYnja6O63A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ElnQg1F6Ee6OHYnja6O63A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Elk0QVF6Ee6OHYnja6O63A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Elk0QlF6Ee6OHYnja6O63A" x="27" y="45"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_WSksY1F4Ee6dvsaFo0-29Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WSksZFF4Ee6dvsaFo0-29Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_WSksZVF4Ee6dvsaFo0-29Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dAoN4FF6Ee6OHYnja6O63A" name="Open Source Rover" childrenPresentation="HorizontalStack">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#osr_project"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#osr_project"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dAo08FF6Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gAM2AlF9Ee6OHYnja6O63A" name="stage1">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage1"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gANdEFF9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gANdElF9Ee6OHYnja6O63A" name="stage2">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage2"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gANdE1F9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gANdFVF9Ee6OHYnja6O63A" name="stage3">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage3"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gANdFlF9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gAOEIFF9Ee6OHYnja6O63A" name="stage4">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage4"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage4"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gAOEIVF9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gAOEI1F9Ee6OHYnja6O63A" name="stage5">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage5"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage5"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gAOEJFF9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gAOEJlF9Ee6OHYnja6O63A" name="stage6">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage6"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage6"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gAOEJ1F9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gAOEKVF9Ee6OHYnja6O63A" name="stage7">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage7"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#stage7"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gAOEKlF9Ee6OHYnja6O63A" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="204,242,166">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subContainerMappings[name='Stage']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_WSkFUVF4Ee6dvsaFo0-29Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='Project']/@ownedRepresentations[name='Process%20Diagram']/@defaultLayer"/>
+    <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/osr/description/osr.oml#osr_project"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_obNIQFHREe61jdXtFp1DQg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_obfcIFHREe61jdXtFp1DQg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_obfcIVHREe61jdXtFp1DQg" type="Sirius" element="_obNIQFHREe61jdXtFp1DQg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_o05aoFHREe61jdXtFp1DQg" type="2003" element="_o0qxIFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o06BsFHREe61jdXtFp1DQg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_o06BsVHREe61jdXtFp1DQg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_o06BslHREe61jdXtFp1DQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_o06Bs1HREe61jdXtFp1DQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o05aoVHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o05aolHREe61jdXtFp1DQg" x="353" y="290" width="109" height="39"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_o06BtFHREe61jdXtFp1DQg" type="2003" element="_o0tNYFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o06Bt1HREe61jdXtFp1DQg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_o06BuFHREe61jdXtFp1DQg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_o06BuVHREe61jdXtFp1DQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_o06BulHREe61jdXtFp1DQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o06BtVHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o06BtlHREe61jdXtFp1DQg" x="281" y="101" width="106" height="129"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_o06Bu1HREe61jdXtFp1DQg" type="2003" element="_o0t0cFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o06BvlHREe61jdXtFp1DQg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_o06owFHREe61jdXtFp1DQg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_o06owVHREe61jdXtFp1DQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_o06owlHREe61jdXtFp1DQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o06BvFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o06BvVHREe61jdXtFp1DQg" x="20" y="110" width="103" height="68"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_o06ow1HREe61jdXtFp1DQg" type="2003" element="_o0t0c1HREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o06oxlHREe61jdXtFp1DQg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_o06ox1HREe61jdXtFp1DQg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_o06oyFHREe61jdXtFp1DQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_o06oyVHREe61jdXtFp1DQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o06oxFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o06oxVHREe61jdXtFp1DQg" x="200" y="290" width="111" height="39"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_o06oylHREe61jdXtFp1DQg" type="2003" element="_o0ubgFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o06ozVHREe61jdXtFp1DQg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_o06ozlHREe61jdXtFp1DQg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_o06o0VHREe61jdXtFp1DQg" type="3010" element="_o0ys8lHREe61jdXtFp1DQg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_o06o0lHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_o06o01HREe61jdXtFp1DQg" x="4" y="1"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_o06oz1HREe61jdXtFp1DQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_o06o0FHREe61jdXtFp1DQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_o06oy1HREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o06ozFHREe61jdXtFp1DQg" x="81" y="9" width="214" height="49"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_obfcIlHREe61jdXtFp1DQg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_o0724FHREe61jdXtFp1DQg" type="4001" element="_o02XUFHREe61jdXtFp1DQg" source="_o06Bu1HREe61jdXtFp1DQg" target="_o06oylHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o0725FHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o0725VHREe61jdXtFp1DQg" x="48" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o08d8FHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o08d8VHREe61jdXtFp1DQg" x="9" y="91"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o08d8lHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o08d81HREe61jdXtFp1DQg" x="2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o0724VHREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o0724lHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sZlHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o07241HREe61jdXtFp1DQg" points="[14, 0, -122, 54]$[14, -29, -122, 25]$[105, -29, -31, 25]$[105, -54, -31, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o0_hQFHREe61jdXtFp1DQg" id="(0.37293729372937257,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o0_hQVHREe61jdXtFp1DQg" id="(0.528694968553459,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o0_hQlHREe61jdXtFp1DQg" type="4001" element="_o02-YVHREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o06oylHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o0_hRlHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o0_hR1HREe61jdXtFp1DQg" x="5" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o0_hSFHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o0_hSVHREe61jdXtFp1DQg" x="389" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o0_hSlHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o0_hS1HREe61jdXtFp1DQg" x="-8" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o0_hQ1HREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o0_hRFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sZ1HREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o0_hRVHREe61jdXtFp1DQg" points="[9, -36, 197, 45]$[9, -56, 197, 25]$[-91, -56, 97, 25]$[-91, -81, 97, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1AIUFHREe61jdXtFp1DQg" id="(0.42788461538461536,0.28346456692913385)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1AIUVHREe61jdXtFp1DQg" id="(0.2661163522012577,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o1AIUlHREe61jdXtFp1DQg" type="4001" element="_o02-ZFHREe61jdXtFp1DQg" source="_o06ow1HREe61jdXtFp1DQg" target="_o06BtFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o1AIVlHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AIV1HREe61jdXtFp1DQg" x="-14" y="-46"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1AIWFHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AIWVHREe61jdXtFp1DQg" x="-12" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1AIWlHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AIW1HREe61jdXtFp1DQg" x="-58" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1AIU1HREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o1AIVFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sYVHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1AIVVHREe61jdXtFp1DQg" points="[103, -39, -15, 153]$[103, -75, -15, 117]$[130, -75, 12, 117]$[130, -101, 12, 91]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1AIXFHREe61jdXtFp1DQg" id="(-0.19495412844036697,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1AIXVHREe61jdXtFp1DQg" id="(0.14423076923076922,0.28346456692913385)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o1AIXlHREe61jdXtFp1DQg" type="4001" element="_o02-Z1HREe61jdXtFp1DQg" source="_o05aoFHREe61jdXtFp1DQg" target="_o06BtFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o1AvYFHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvYVHREe61jdXtFp1DQg" x="-6" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1AvYlHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvY1HREe61jdXtFp1DQg" x="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1AvZFHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvZVHREe61jdXtFp1DQg" x="-49" y="19"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1AIX1HREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o1AIYFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sYlHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1AIYVHREe61jdXtFp1DQg" points="[-9, 0, 75, 114]$[-9, -36, 75, 78]$[-32, -36, 52, 78]$[-32, -62, 52, 52]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1AvZlHREe61jdXtFp1DQg" id="(0.38940809968847345,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1AvZ1HREe61jdXtFp1DQg" id="(0.2860576923076923,0.5905511811023622)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o1AvaFHREe61jdXtFp1DQg" type="4001" element="_o03lcFHREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o05aoFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o1AvbFHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvbVHREe61jdXtFp1DQg" x="27" y="-45"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1AvblHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1Avb1HREe61jdXtFp1DQg" x="21" y="47"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1AvcFHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1AvcVHREe61jdXtFp1DQg" x="20"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1AvaVHREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o1AvalHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sYFHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1Ava1HREe61jdXtFp1DQg" points="[89, 24, 11, -90]$[129, 24, 51, -90]$[129, 114, 51, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1BWcFHREe61jdXtFp1DQg" id="(0.14423076923076922,0.5905511811023622)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1BWcVHREe61jdXtFp1DQg" id="(0.19626168224299065,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o1BWclHREe61jdXtFp1DQg" type="4001" element="_o04MgFHREe61jdXtFp1DQg" source="_o06Bu1HREe61jdXtFp1DQg" target="_o06BtFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o1BWdlHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWd1HREe61jdXtFp1DQg" x="43" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1BWeFHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWeVHREe61jdXtFp1DQg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1BWelHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWe1HREe61jdXtFp1DQg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1BWc1HREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o1BWdFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sY1HREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1BWdVHREe61jdXtFp1DQg" points="[82, 32, -204, -34]$[242, 32, -44, -34]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1BWfFHREe61jdXtFp1DQg" id="(0.18811881188118756,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1BWfVHREe61jdXtFp1DQg" id="(0.42788461538461536,0.5905511811023622)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o1BWflHREe61jdXtFp1DQg" type="4001" element="_o04Mh1HREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o06ow1HREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o1BWglHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWg1HREe61jdXtFp1DQg" x="32" y="38"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1BWhFHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWhVHREe61jdXtFp1DQg" x="392" y="-54"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1BWhlHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1BWh1HREe61jdXtFp1DQg" x="-1" y="-197"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1BWf1HREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o1BWgFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sZVHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1BWgVHREe61jdXtFp1DQg" points="[-29, 63, 88, -129]$[-83, 63, 34, -129]$[-83, 153, 34, -39]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9gFHREe61jdXtFp1DQg" id="(0.2860576923076923,0.28346456692913385)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9gVHREe61jdXtFp1DQg" id="(-0.060397553516819656,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o1B9glHREe61jdXtFp1DQg" type="4001" element="_o04zkFHREe61jdXtFp1DQg" source="_o06BtFHREe61jdXtFp1DQg" target="_o06BtFHREe61jdXtFp1DQg">
+          <children xmi:type="notation:Node" xmi:id="_o1B9hlHREe61jdXtFp1DQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9h1HREe61jdXtFp1DQg" x="32" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1B9iFHREe61jdXtFp1DQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9iVHREe61jdXtFp1DQg" x="20" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o1B9ilHREe61jdXtFp1DQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1B9i1HREe61jdXtFp1DQg" x="-21" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o1B9g1HREe61jdXtFp1DQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o1B9hFHREe61jdXtFp1DQg" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_o2_sZFHREe61jdXtFp1DQg" name="junctionPoints" stringValue="()"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1B9hVHREe61jdXtFp1DQg" points="[45, -48, 57, -57]$[85, -48, 97, -57]$[85, -21, 97, -30]$[45, -21, 57, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9jFHREe61jdXtFp1DQg" id="(0.5673076923076923,0.5241540753351777)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o1B9jVHREe61jdXtFp1DQg" id="(0.4543269230769231,0.5905511811023622)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_obzlMFHREe61jdXtFp1DQg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_obzlMVHREe61jdXtFp1DQg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0qxIFHREe61jdXtFp1DQg" name="Woman" tooltipText="Woman" outgoingEdges="_o02-Z1HREe61jdXtFp1DQg" incomingEdges="_o03lcFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Woman"/>
+      <semanticElements xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Woman"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_o0r_QFHREe61jdXtFp1DQg" labelSize="12" iconPath="/io.opencaesar.rosetta.sirius.viewpoint/icons/c-icon.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" backgroundColor="255,245,181" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0tNYFHREe61jdXtFp1DQg" name="Person" tooltipText="Person" outgoingEdges="_o02-YVHREe61jdXtFp1DQg _o03lcFHREe61jdXtFp1DQg _o04Mh1HREe61jdXtFp1DQg _o04zkFHREe61jdXtFp1DQg" incomingEdges="_o02-ZFHREe61jdXtFp1DQg _o02-Z1HREe61jdXtFp1DQg _o04MgFHREe61jdXtFp1DQg _o04zkFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Person"/>
+      <semanticElements xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Person"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_o0tNYVHREe61jdXtFp1DQg" labelSize="12" iconPath="/io.opencaesar.rosetta.sirius.viewpoint/icons/c-icon.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" backgroundColor="255,245,181" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0t0cFHREe61jdXtFp1DQg" name="Family" tooltipText="Family" outgoingEdges="_o02XUFHREe61jdXtFp1DQg _o04MgFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Family"/>
+      <semanticElements xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Family"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_o0t0cVHREe61jdXtFp1DQg" labelSize="12" iconPath="/io.opencaesar.rosetta.sirius.viewpoint/icons/c-icon.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" backgroundColor="255,245,181" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0t0c1HREe61jdXtFp1DQg" name="Man" tooltipText="Man" outgoingEdges="_o02-ZFHREe61jdXtFp1DQg" incomingEdges="_o04Mh1HREe61jdXtFp1DQg">
+      <target xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Man"/>
+      <semanticElements xmi:type="oml:Concept" href="src/oml/example.com/vocabulary/basicfamily.oml#Man"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_o0t0dFHREe61jdXtFp1DQg" labelSize="12" iconPath="/io.opencaesar.rosetta.sirius.viewpoint/icons/c-icon.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" backgroundColor="255,245,181" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_o0ubgFHREe61jdXtFp1DQg" name="Named" tooltipText="Named" incomingEdges="_o02XUFHREe61jdXtFp1DQg _o02-YVHREe61jdXtFp1DQg">
+      <target xmi:type="oml:Aspect" href="src/oml/example.com/vocabulary/basicfamily.oml#Named"/>
+      <semanticElements xmi:type="oml:Aspect" href="src/oml/example.com/vocabulary/basicfamily.oml#Named"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_o0vCkFHREe61jdXtFp1DQg" labelSize="12" iconPath="/io.opencaesar.rosetta.sirius.viewpoint/icons/a-icon.png" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="Liquid" backgroundColor="255,245,181" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Aspect']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Aspect']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_o0ys8lHREe61jdXtFp1DQg" name="name : xsd:string [0..1]" tooltipText="name">
+        <target xmi:type="oml:ScalarProperty" href="src/oml/example.com/vocabulary/basicfamily.oml#name"/>
+        <semanticElements xmi:type="oml:ScalarProperty" href="src/oml/example.com/vocabulary/basicfamily.oml#name"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_o00iIFHREe61jdXtFp1DQg" labelSize="12" iconPath="/io.opencaesar.rosetta.sirius.viewpoint/icons/scalar-property.png" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']/@subNodeMappings[name='ScalarProperty']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@containerMappings[name='Concept']/@subNodeMappings[name='ScalarProperty']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o02XUFHREe61jdXtFp1DQg" sourceNode="_o0t0cFHREe61jdXtFp1DQg" targetNode="_o0ubgFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.2/@ownedSpecializations.0"/>
+      <semanticElements xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.2/@ownedSpecializations.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o02XUVHREe61jdXtFp1DQg" targetArrow="InputClosedArrow" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o02-YVHREe61jdXtFp1DQg" sourceNode="_o0tNYFHREe61jdXtFp1DQg" targetNode="_o0ubgFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.3/@ownedSpecializations.0"/>
+      <semanticElements xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.3/@ownedSpecializations.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o02-YlHREe61jdXtFp1DQg" targetArrow="InputClosedArrow" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o02-ZFHREe61jdXtFp1DQg" sourceNode="_o0t0c1HREe61jdXtFp1DQg" targetNode="_o0tNYFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.4/@ownedSpecializations.0"/>
+      <semanticElements xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.4/@ownedSpecializations.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o02-ZVHREe61jdXtFp1DQg" targetArrow="InputClosedArrow" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o02-Z1HREe61jdXtFp1DQg" sourceNode="_o0qxIFHREe61jdXtFp1DQg" targetNode="_o0tNYFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.5/@ownedSpecializations.0"/>
+      <semanticElements xmi:type="oml:SpecializationAxiom" href="src/oml/example.com/vocabulary/basicfamily.oml#//@ownedStatements.5/@ownedSpecializations.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o02-aFHREe61jdXtFp1DQg" targetArrow="InputClosedArrow" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='SpecializationAxiom']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o03lcFHREe61jdXtFp1DQg" name="[0..1] mother" sourceNode="_o0tNYFHREe61jdXtFp1DQg" targetNode="_o0qxIFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#mother"/>
+      <semanticElements xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#mother"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o03lcVHREe61jdXtFp1DQg" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_o03lclHREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_o03lc1HREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o04MgFHREe61jdXtFp1DQg" name="members" sourceNode="_o0t0cFHREe61jdXtFp1DQg" targetNode="_o0tNYFHREe61jdXtFp1DQg">
+      <target xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#members"/>
+      <semanticElements xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#members"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o04MgVHREe61jdXtFp1DQg" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_o04MglHREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_o04Mg1HREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o04Mh1HREe61jdXtFp1DQg" name="[0..1] father" sourceNode="_o0tNYFHREe61jdXtFp1DQg" targetNode="_o0t0c1HREe61jdXtFp1DQg">
+      <target xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#father"/>
+      <semanticElements xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#father"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o04MiFHREe61jdXtFp1DQg" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_o04MiVHREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_o04MilHREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o04zkFHREe61jdXtFp1DQg" name="[0..2] parents" sourceNode="_o0tNYFHREe61jdXtFp1DQg" targetNode="_o0tNYFHREe61jdXtFp1DQg" beginLabel="children">
+      <target xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#parents"/>
+      <semanticElements xmi:type="oml:UnreifiedRelation" href="src/oml/example.com/vocabulary/basicfamily.oml#parents"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o04zkVHREe61jdXtFp1DQg" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_o04zklHREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_o04zk1HREe61jdXtFp1DQg" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@edgeMappings[name='UnreifiedRelation']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_obQyoFHREe61jdXtFp1DQg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer"/>
+    <target xmi:type="oml:Vocabulary" href="src/oml/example.com/vocabulary/basicfamily.oml#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_oOvUYFHjEe662pXPYE32HA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_oO994FHjEe662pXPYE32HA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_oO994VHjEe662pXPYE32HA" type="Sirius" element="_oOvUYFHjEe662pXPYE32HA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vxOOkFIIEe6f0IBgFFmLpw" type="2001" element="_vuyloFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_vxQq0FIIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vxQq0VIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uDQFIIEe6f0IBgFFmLpw" type="3005" element="_vuzzwFIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uDQVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uDQlIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vxOOkVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vxOOklIIEe6f0IBgFFmLpw" x="252" y="25" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v4QqsFIIEe6f0IBgFFmLpw" type="2001" element="_vu0a0VIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v4Qqs1IIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v4QqtFIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uDQ1IIEe6f0IBgFFmLpw" type="3005" element="_vu0a0lIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uDRFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uDRVIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4QqsVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4QqslIIEe6f0IBgFFmLpw" x="351" y="126" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v4cQ4FIIEe6f0IBgFFmLpw" type="2001" element="_vu0a1FIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v4cQ41IIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v4cQ5FIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uDRlIIEe6f0IBgFFmLpw" type="3005" element="_vu1B4FIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uDR1IIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uDSFIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4cQ4VIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4cQ4lIIEe6f0IBgFFmLpw" x="198" y="225" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v4pFMFIIEe6f0IBgFFmLpw" type="2001" element="_vu1B4lIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v4psQFIIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v4psQVIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uqUFIIEe6f0IBgFFmLpw" type="3005" element="_vu1B41IIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uqUVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uqUlIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4pFMVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pFMlIIEe6f0IBgFFmLpw" x="153" y="324" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v4zdQFIIEe6f0IBgFFmLpw" type="2001" element="_vu1B5VIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v4zdQ1IIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v4zdRFIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uqU1IIEe6f0IBgFFmLpw" type="3005" element="_vu1B5lIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uqVFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uqVVIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4zdQVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4zdQlIIEe6f0IBgFFmLpw" x="504" y="225" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v491UFIIEe6f0IBgFFmLpw" type="2001" element="_vu1B6FIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v491U1IIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v491VFIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uqVlIIEe6f0IBgFFmLpw" type="3005" element="_vu1B6VIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uqV1IIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uqWFIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v491UVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v491UlIIEe6f0IBgFFmLpw" x="90" y="36" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v5FxIFIIEe6f0IBgFFmLpw" type="2001" element="_vu1o8FIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5FxI1IIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v5FxJFIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uqWVIIEe6f0IBgFFmLpw" type="3005" element="_vu1o8VIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uqWlIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uqW1IIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v5FxIVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5FxIlIIEe6f0IBgFFmLpw" x="351" y="25" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v5RXUFIIEe6f0IBgFFmLpw" type="2001" element="_vu2QAVIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5R-YlIIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v5R-Y1IIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uqXFIIEe6f0IBgFFmLpw" type="3005" element="_vu2QAlIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uqXVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uqXlIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v5R-YFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5R-YVIIEe6f0IBgFFmLpw" x="252" y="126" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v5ZTIFIIEe6f0IBgFFmLpw" type="2001" element="_vu2QBFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5ZTI1IIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v5ZTJFIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5uqX1IIEe6f0IBgFFmLpw" type="3005" element="_vu2QBVIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5uqYFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5uqYVIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v5ZTIVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5ZTIlIIEe6f0IBgFFmLpw" x="297" y="225" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v5gA0FIIEe6f0IBgFFmLpw" type="2001" element="_vu2QB1IIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5gn4FIIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v5gn4VIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5vRYFIIEe6f0IBgFFmLpw" type="3005" element="_vu2QCFIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5vRYVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5vRYlIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v5gA0VIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5gA0lIIEe6f0IBgFFmLpw" x="72" y="225" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v5mugFIIEe6f0IBgFFmLpw" type="2001" element="_vu23EVIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5nVkFIIEe6f0IBgFFmLpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v5nVkVIIEe6f0IBgFFmLpw" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5vRY1IIEe6f0IBgFFmLpw" type="3005" element="_vu23ElIIEe6f0IBgFFmLpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v5vRZFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5vRZVIIEe6f0IBgFFmLpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v5mugVIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5muglIIEe6f0IBgFFmLpw" x="396" y="225" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_SdvEgFMHEe6NQrtuHNAr-A" type="2001" element="_Sdnvw1MHEe6NQrtuHNAr-A">
+          <children xmi:type="notation:Node" xmi:id="_Sdw5sFMHEe6NQrtuHNAr-A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Sdw5sVMHEe6NQrtuHNAr-A" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Sd-VEFMHEe6NQrtuHNAr-A" type="3005" element="_SdnvxFMHEe6NQrtuHNAr-A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Sd-VEVMHEe6NQrtuHNAr-A" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sd-VElMHEe6NQrtuHNAr-A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_SdvEgVMHEe6NQrtuHNAr-A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SdvEglMHEe6NQrtuHNAr-A" x="297" y="315" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZEVlEFMHEe6NQrtuHNAr-A" type="2001" element="_ZEOQXFMHEe6NQrtuHNAr-A">
+          <children xmi:type="notation:Node" xmi:id="_ZEVlE1MHEe6NQrtuHNAr-A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEVlFFMHEe6NQrtuHNAr-A" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZEhLQFMHEe6NQrtuHNAr-A" type="3005" element="_ZEO3YFMHEe6NQrtuHNAr-A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZEhLQVMHEe6NQrtuHNAr-A" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZEhLQlMHEe6NQrtuHNAr-A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZEVlEVMHEe6NQrtuHNAr-A" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZEVlElMHEe6NQrtuHNAr-A" x="396" y="315" width="40" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_oO994lHjEe662pXPYE32HA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_v5v4cFIIEe6f0IBgFFmLpw" type="4001" element="_vu23FFIIEe6f0IBgFFmLpw" source="_v4QqsFIIEe6f0IBgFFmLpw" target="_vxOOkFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5v4dFIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5v4dVIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5wfgFIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5wfgVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5wfglIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5wfg1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5v4cVIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5v4clIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5v4c1IIEe6f0IBgFFmLpw" points="[0, 0, 100, 60]$[-100, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5xtoFIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5xtoVIIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5xtolIIEe6f0IBgFFmLpw" type="4001" element="_vu3eJFIIEe6f0IBgFFmLpw" source="_v4cQ4FIIEe6f0IBgFFmLpw" target="_v4QqsFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5xtplIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5xtp1IIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5xtqFIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5xtqVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5xtqlIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5xtq1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5xto1IIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5xtpFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5xtpVIIEe6f0IBgFFmLpw" points="[0, 0, -150, 60]$[150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5xtrFIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5xtrVIIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5xtrlIIEe6f0IBgFFmLpw" type="4001" element="_vu3eKVIIEe6f0IBgFFmLpw" source="_v4pFMFIIEe6f0IBgFFmLpw" target="_v4cQ4FIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5xtslIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5xts1IIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5xttFIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5xttVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5xttlIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5xtt1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5xtr1IIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5xtsFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5xtsVIIEe6f0IBgFFmLpw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5xtuFIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5xtuVIIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5xtulIIEe6f0IBgFFmLpw" type="4001" element="_vu4FMFIIEe6f0IBgFFmLpw" source="_v4zdQFIIEe6f0IBgFFmLpw" target="_v4QqsFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5yUsFIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUsVIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yUslIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUs1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yUtFIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUtVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5xtu1IIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5xtvFIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5xtvVIIEe6f0IBgFFmLpw" points="[0, 0, 150, 60]$[-150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yUtlIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yUt1IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5yUuFIIEe6f0IBgFFmLpw" type="4001" element="_vu4FNVIIEe6f0IBgFFmLpw" source="_v5RXUFIIEe6f0IBgFFmLpw" target="_vxOOkFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5yUvFIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUvVIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yUvlIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUv1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yUwFIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUwVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5yUuVIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5yUulIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5yUu1IIEe6f0IBgFFmLpw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yUwlIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yUw1IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5yUxFIIEe6f0IBgFFmLpw" type="4001" element="_vu4FOlIIEe6f0IBgFFmLpw" source="_v5ZTIFIIEe6f0IBgFFmLpw" target="_v4QqsFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5yUyFIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUyVIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yUylIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUy1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yUzFIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yUzVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5yUxVIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5yUxlIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5yUx1IIEe6f0IBgFFmLpw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yUzlIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yUz1IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5yU0FIIEe6f0IBgFFmLpw" type="4001" element="_vu4FP1IIEe6f0IBgFFmLpw" source="_v5mugFIIEe6f0IBgFFmLpw" target="_v4QqsFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5yU1FIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yU1VIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yU1lIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yU11IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5yU2FIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5yU2VIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5yU0VIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5yU0lIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5yU01IIEe6f0IBgFFmLpw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yU2lIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5yU21IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5yU3FIIEe6f0IBgFFmLpw" type="4001" element="_vu4sQFIIEe6f0IBgFFmLpw" source="_v4QqsFIIEe6f0IBgFFmLpw" target="_v5FxIFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5y7wFIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y7wVIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5y7wlIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y7w1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5y7xFIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y7xVIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5yU3VIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5yU3lIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5yU31IIEe6f0IBgFFmLpw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5y7xlIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5y7x1IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5y7yFIIEe6f0IBgFFmLpw" type="4001" element="_vu4sRVIIEe6f0IBgFFmLpw" source="_v4pFMFIIEe6f0IBgFFmLpw" target="_v5gA0FIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5y7zFIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y7zVIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5y7zlIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y7z1IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5y70FIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y70VIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5y7yVIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5y7ylIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5y7y1IIEe6f0IBgFFmLpw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5y70lIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5y701IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v5y71FIIEe6f0IBgFFmLpw" type="4001" element="_vu4sSlIIEe6f0IBgFFmLpw" source="_v5RXUFIIEe6f0IBgFFmLpw" target="_v5FxIFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_v5y72FIIEe6f0IBgFFmLpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y72VIIEe6f0IBgFFmLpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5y72lIIEe6f0IBgFFmLpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y721IIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v5y73FIIEe6f0IBgFFmLpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v5y73VIIEe6f0IBgFFmLpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v5y71VIIEe6f0IBgFFmLpw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v5y71lIIEe6f0IBgFFmLpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5y711IIEe6f0IBgFFmLpw" points="[0, 0, -100, 60]$[100, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5y73lIIEe6f0IBgFFmLpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5y731IIEe6f0IBgFFmLpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_WWEoAFMHEe6NQrtuHNAr-A" type="4001" element="_WV9TZFMHEe6NQrtuHNAr-A" source="_SdvEgFMHEe6NQrtuHNAr-A" target="_v5ZTIFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_WWFPEFMHEe6NQrtuHNAr-A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WWFPEVMHEe6NQrtuHNAr-A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WWF2IFMHEe6NQrtuHNAr-A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WWF2IVMHEe6NQrtuHNAr-A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WWF2IlMHEe6NQrtuHNAr-A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WWF2I1MHEe6NQrtuHNAr-A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WWEoAVMHEe6NQrtuHNAr-A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WWEoAlMHEe6NQrtuHNAr-A" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WWEoA1MHEe6NQrtuHNAr-A" points="[0, 0, 0, 50]$[0, -50, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WWGdMFMHEe6NQrtuHNAr-A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WWGdMVMHEe6NQrtuHNAr-A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_bBKeIFMHEe6NQrtuHNAr-A" type="4001" element="_bBCiZlMHEe6NQrtuHNAr-A" source="_ZEVlEFMHEe6NQrtuHNAr-A" target="_v5mugFIIEe6f0IBgFFmLpw">
+          <children xmi:type="notation:Node" xmi:id="_bBLFMFMHEe6NQrtuHNAr-A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bBLFMVMHEe6NQrtuHNAr-A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bBLFMlMHEe6NQrtuHNAr-A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bBLFM1MHEe6NQrtuHNAr-A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bBLFNFMHEe6NQrtuHNAr-A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bBLFNVMHEe6NQrtuHNAr-A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_bBKeIVMHEe6NQrtuHNAr-A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bBKeIlMHEe6NQrtuHNAr-A" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bBKeI1MHEe6NQrtuHNAr-A" points="[0, 0, 0, 50]$[0, -50, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bBLFNlMHEe6NQrtuHNAr-A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bBLFN1MHEe6NQrtuHNAr-A" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_oPFSoFHjEe662pXPYE32HA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_oPFSoVHjEe662pXPYE32HA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vuyloFIIEe6f0IBgFFmLpw" name="Paul" incomingEdges="_vu23FFIIEe6f0IBgFFmLpw _vu4FNVIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vuzzwFIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu0a0VIIEe6f0IBgFFmLpw" name="Elias" outgoingEdges="_vu23FFIIEe6f0IBgFFmLpw _vu4sQFIIEe6f0IBgFFmLpw" incomingEdges="_vu3eJFIIEe6f0IBgFFmLpw _vu4FMFIIEe6f0IBgFFmLpw _vu4FOlIIEe6f0IBgFFmLpw _vu4FP1IIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu0a0lIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu0a1FIIEe6f0IBgFFmLpw" name="Dave" outgoingEdges="_vu3eJFIIEe6f0IBgFFmLpw" incomingEdges="_vu3eKVIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu1B4FIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu1B4lIIEe6f0IBgFFmLpw" name="Alain" outgoingEdges="_vu3eKVIIEe6f0IBgFFmLpw _vu4sRVIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu1B41IIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu1B5VIIEe6f0IBgFFmLpw" name="Bryan" outgoingEdges="_vu4FMFIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu1B5lIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu1B6FIIEe6f0IBgFFmLpw" name="Albert" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu1B6VIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZEOQXFMHEe6NQrtuHNAr-A" name="Peter" outgoingEdges="_bBCiZlMHEe6NQrtuHNAr-A" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ZEO3YFMHEe6NQrtuHNAr-A" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu1o8FIIEe6f0IBgFFmLpw" name="Isa" incomingEdges="_vu4sQFIIEe6f0IBgFFmLpw _vu4sSlIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu1o8VIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu2QAVIIEe6f0IBgFFmLpw" name="Lea" outgoingEdges="_vu4FNVIIEe6f0IBgFFmLpw _vu4sSlIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu2QAlIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu2QBFIIEe6f0IBgFFmLpw" name="Fiona" outgoingEdges="_vu4FOlIIEe6f0IBgFFmLpw" incomingEdges="_WV9TZFMHEe6NQrtuHNAr-A" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu2QBVIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu2QB1IIEe6f0IBgFFmLpw" name="Katell" incomingEdges="_vu4sRVIIEe6f0IBgFFmLpw" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu2QCFIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vu23EVIIEe6f0IBgFFmLpw" name="Clara" outgoingEdges="_vu4FP1IIEe6f0IBgFFmLpw" incomingEdges="_bBCiZlMHEe6NQrtuHNAr-A" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vu23ElIIEe6f0IBgFFmLpw" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Sdnvw1MHEe6NQrtuHNAr-A" name="Jane" outgoingEdges="_WV9TZFMHEe6NQrtuHNAr-A" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_SdnvxFMHEe6NQrtuHNAr-A" labelSize="12" showIcon="false" workspacePath="/basicfamily-viewpoint/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu23FFIIEe6f0IBgFFmLpw" sourceNode="_vu0a0VIIEe6f0IBgFFmLpw" targetNode="_vuyloFIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu3eIFIIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu3eIVIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu3eJFIIEe6f0IBgFFmLpw" sourceNode="_vu0a1FIIEe6f0IBgFFmLpw" targetNode="_vu0a0VIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu3eJVIIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu3eJlIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu3eKVIIEe6f0IBgFFmLpw" sourceNode="_vu1B4lIIEe6f0IBgFFmLpw" targetNode="_vu0a1FIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu3eKlIIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu3eK1IIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4FMFIIEe6f0IBgFFmLpw" sourceNode="_vu1B5VIIEe6f0IBgFFmLpw" targetNode="_vu0a0VIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4FMVIIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4FMlIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4FNVIIEe6f0IBgFFmLpw" sourceNode="_vu2QAVIIEe6f0IBgFFmLpw" targetNode="_vuyloFIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4FNlIIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4FN1IIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4FOlIIEe6f0IBgFFmLpw" sourceNode="_vu2QBFIIEe6f0IBgFFmLpw" targetNode="_vu0a0VIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4FO1IIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4FPFIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4FP1IIEe6f0IBgFFmLpw" sourceNode="_vu23EVIIEe6f0IBgFFmLpw" targetNode="_vu0a0VIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4FQFIIEe6f0IBgFFmLpw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4FQVIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4sQFIIEe6f0IBgFFmLpw" sourceNode="_vu0a0VIIEe6f0IBgFFmLpw" targetNode="_vu1o8FIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4sQVIIEe6f0IBgFFmLpw" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4sQlIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4sRVIIEe6f0IBgFFmLpw" sourceNode="_vu1B4lIIEe6f0IBgFFmLpw" targetNode="_vu2QB1IIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4sRlIIEe6f0IBgFFmLpw" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4sR1IIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vu4sSlIIEe6f0IBgFFmLpw" sourceNode="_vu2QAVIIEe6f0IBgFFmLpw" targetNode="_vu1o8FIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vu4sS1IIEe6f0IBgFFmLpw" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vu4sTFIIEe6f0IBgFFmLpw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WV9TZFMHEe6NQrtuHNAr-A" sourceNode="_Sdnvw1MHEe6NQrtuHNAr-A" targetNode="_vu2QBFIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WV96UFMHEe6NQrtuHNAr-A" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WV96UVMHEe6NQrtuHNAr-A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bBCiZlMHEe6NQrtuHNAr-A" sourceNode="_ZEOQXFMHEe6NQrtuHNAr-A" targetNode="_vu23EVIIEe6f0IBgFFmLpw">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bBDJYFMHEe6NQrtuHNAr-A" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_bBDJYVMHEe6NQrtuHNAr-A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_oOyXsFHjEe662pXPYE32HA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer"/>
+    <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#family1"/>
+  </diagram:DSemanticDiagram>
+  <table:DTable uid="_oDbNsFIOEe67NfYXqozjyw" headerColumnWidth="75">
+    <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#family1"/>
+    <lines xmi:type="table:DLine" uid="_oDe4EFIOEe67NfYXqozjyw" label="Paul">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_3QHk6FIPEe67NfYXqozjyw" label="2" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cEm4lMFEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3EyUEFIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffIVIOEe67NfYXqozjyw" label="Isa">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_3QIzA1IPEe67NfYXqozjyw" label="2" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cEm51MFEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7IFIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffI1IOEe67NfYXqozjyw" label="Elias">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_JKeHFlIPEe67NfYXqozjyw" label="Isa" column="_oDhUUlIOEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_L_E8t1IPEe67NfYXqozjyw" label="Paul" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QIzB1IPEe67NfYXqozjyw" label="4" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cFN8VMFEe6NQrtuHNAr-A" label="1" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7IVIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffJVIOEe67NfYXqozjyw" label="Lea">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_JKeuIVIPEe67NfYXqozjyw" label="Isa" column="_oDhUUlIOEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Isa"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_L_FjwlIPEe67NfYXqozjyw" label="Paul" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Paul"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QIzDVIPEe67NfYXqozjyw" label="0" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cFN9lMFEe6NQrtuHNAr-A" label="1" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Lea"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7IlIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffJ1IOEe67NfYXqozjyw" label="Dave">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_L_FjxVIPEe67NfYXqozjyw" label="Elias" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QIzFFIPEe67NfYXqozjyw" label="1" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cFN_FMFEe6NQrtuHNAr-A" label="3" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7I1IOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffKVIOEe67NfYXqozjyw" label="Alain">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_JKeuJlIPEe67NfYXqozjyw" label="Katell" column="_oDhUUlIOEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_L_FjyFIPEe67NfYXqozjyw" label="Dave" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Dave"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QIzGVIPEe67NfYXqozjyw" label="0" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cFOAFMFEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Alain"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7JFIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffK1IOEe67NfYXqozjyw" label="Bryan">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_L_Fjy1IPEe67NfYXqozjyw" label="Elias" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QIzIFIPEe67NfYXqozjyw" label="0" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cF1BVMFEe6NQrtuHNAr-A" label="3" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Bryan"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7JVIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffLVIOEe67NfYXqozjyw" label="Fiona">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_L_FjzlIPEe67NfYXqozjyw" label="Elias" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QJaE1IPEe67NfYXqozjyw" label="1" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cF1ClMFEe6NQrtuHNAr-A" label="3" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7JlIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffL1IOEe67NfYXqozjyw" label="Katell">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_3QJaGlIPEe67NfYXqozjyw" label="1" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cGcEFMFEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Katell"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7J1IOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffMVIOEe67NfYXqozjyw" label="Clara">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_L_Fj01IPEe67NfYXqozjyw" label="Elias" column="_L_E8sFIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Elias"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_3QJaH1IPEe67NfYXqozjyw" label="1" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cGcFFMFEe6NQrtuHNAr-A" label="3" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7KFIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_oDffM1IOEe67NfYXqozjyw" label="Albert">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_3QJaJlIPEe67NfYXqozjyw" label="0" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="__cGcGlMFEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Albert"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_3Ey7KVIOEe67NfYXqozjyw" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_SdkFYFMHEe6NQrtuHNAr-A" label="Jane">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_SdlTl1MHEe6NQrtuHNAr-A" label="0" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_SdlTmVMHEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_WV5o_VMHEe6NQrtuHNAr-A" label="Fiona" column="_oDhUUlIOEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Fiona"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Jane"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_SdkFYVMHEe6NQrtuHNAr-A" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_ZEJX0FMHEe6NQrtuHNAr-A" label="Peter">
+      <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedLineMappings[name='PersonLine']"/>
+      <cells xmi:type="table:DCell" uid="_ZEL0H1MHEe6NQrtuHNAr-A" label="0" column="_3QHk4lIPEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_ZEL0IVMHEe6NQrtuHNAr-A" label="0" column="__cD_01MFEe6NQrtuHNAr-A">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_bA-Q61MHEe6NQrtuHNAr-A" label="Clara" column="_oDhUUlIOEe67NfYXqozjyw">
+        <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Clara"/>
+        <semanticElements xmi:type="oml:ConceptInstance" href="src/oml/example.com/description/family1.oml#Peter"/>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_ZEJX0VMHEe6NQrtuHNAr-A" labelSize="11" defaultForegroundStyle="true"/>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_L_E8sFIPEe67NfYXqozjyw" label="Father" cells="_L_E8t1IPEe67NfYXqozjyw _L_FjwlIPEe67NfYXqozjyw _L_FjxVIPEe67NfYXqozjyw _L_FjyFIPEe67NfYXqozjyw _L_Fjy1IPEe67NfYXqozjyw _L_FjzlIPEe67NfYXqozjyw _L_Fj01IPEe67NfYXqozjyw" width="38" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedColumnMappings[name='fatherCol']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_oDhUUlIOEe67NfYXqozjyw" label="Mother" cells="_JKeHFlIPEe67NfYXqozjyw _JKeuIVIPEe67NfYXqozjyw _JKeuJlIPEe67NfYXqozjyw _WV5o_VMHEe6NQrtuHNAr-A _bA-Q61MHEe6NQrtuHNAr-A" width="42" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedColumnMappings[name='motherCol']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3QHk4lIPEe67NfYXqozjyw" label="Children" cells="_3QHk6FIPEe67NfYXqozjyw _3QIzA1IPEe67NfYXqozjyw _3QIzB1IPEe67NfYXqozjyw _3QIzDVIPEe67NfYXqozjyw _3QIzFFIPEe67NfYXqozjyw _3QIzGVIPEe67NfYXqozjyw _3QIzIFIPEe67NfYXqozjyw _3QJaE1IPEe67NfYXqozjyw _3QJaGlIPEe67NfYXqozjyw _3QJaH1IPEe67NfYXqozjyw _3QJaJlIPEe67NfYXqozjyw _SdlTl1MHEe6NQrtuHNAr-A _ZEL0H1MHEe6NQrtuHNAr-A" width="48" featureName="*">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedColumnMappings[name='childrenCol']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="__cD_01MFEe6NQrtuHNAr-A" label="Siblings" cells="__cEm4lMFEe6NQrtuHNAr-A __cEm51MFEe6NQrtuHNAr-A __cFN8VMFEe6NQrtuHNAr-A __cFN9lMFEe6NQrtuHNAr-A __cFN_FMFEe6NQrtuHNAr-A __cFOAFMFEe6NQrtuHNAr-A __cF1BVMFEe6NQrtuHNAr-A __cF1ClMFEe6NQrtuHNAr-A __cGcEFMFEe6NQrtuHNAr-A __cGcFFMFEe6NQrtuHNAr-A __cGcGlMFEe6NQrtuHNAr-A _SdlTmVMHEe6NQrtuHNAr-A _ZEL0IVMHEe6NQrtuHNAr-A" width="46" featureName="*">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']/@ownedColumnMappings[name='slblingsCol']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/basicfamily-viewpoint/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20table']"/>
+  </table:DTable>
+</xmi:XMI>

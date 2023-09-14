@@ -1,0 +1,4 @@
+vocabulary bundle <http://example.com/vocabulary/bundle#> as ^bundle {
+	
+	includes <http://example.com/vocabulary/basicfamily#>
+}

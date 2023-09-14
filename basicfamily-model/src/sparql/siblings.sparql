@@ -1,0 +1,10 @@
+PREFIX basicfamily:        <http://example.com/vocabulary/basicfamily#>
+
+SELECT DISTINCT ?person ?sibling
+WHERE {
+	?person a basicfamily:Person ;
+			basicfamily:parents ?parent .
+	?parent basicfamily:children ?sibling .
+	FILTER(?person != ?sibling)
+}
+ORDER BY ?person ?sibling
