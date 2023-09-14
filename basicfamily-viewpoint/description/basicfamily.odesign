@@ -90,6 +90,12 @@
             <elementView name="elementView"/>
             <containerView name="containerView"/>
             <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.recursiveDelete()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Cascade Delete" precondition="aql:self.oclAsType(oml::ConceptInstance).findIsKindOf('basicfamily:Person')">
+            <view name="views"/>
+            <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.cascadeDelete()"/>
             </initialOperation>
           </ownedTools>
