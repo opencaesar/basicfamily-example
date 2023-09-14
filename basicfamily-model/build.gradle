@@ -35,7 +35,7 @@ buildscript {
  */
 ext {
     // Name of dataset (matches one used in .fuseki.ttl file)
-    dataset = 'basicfamily'
+    dataset = 'basicfamily-model'
     // Root ontology IRI of the dataset
     rootIri = 'http://example.com/description/bundle'
 }

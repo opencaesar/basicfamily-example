@@ -9,7 +9,7 @@
 
 <#service> rdf:type fuseki:Service ;
     rdfs:label          "OSR" ;												# Human readable label for dataset
-    fuseki:name         "basicfamily" ;												# Name of the dataset in the endpoint url
+    fuseki:name         "basicfamily-model" ;												# Name of the dataset in the endpoint url
     fuseki:serviceReadWriteGraphStore "data" ;											# SPARQL Graph store protocol (read and write)
     fuseki:endpoint 	[ fuseki:operation fuseki:query ;	fuseki:name "sparql"  ] ;	# SPARQL query service
     fuseki:endpoint 	[ fuseki:operation fuseki:shacl ;	fuseki:name "shacl" ] ;		# SHACL query service
