@@ -1,4 +1,4 @@
-package viewpoint;
+package defaultpackage;
 
 import java.util.HashSet;
 import java.util.Set;

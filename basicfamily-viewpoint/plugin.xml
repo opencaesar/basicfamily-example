@@ -2,9 +2,9 @@
 <?eclipse version="3.0"?>
 <plugin>
   <extension point="org.eclipse.sirius.componentization">
-    <component class="viewpoint.Activator"
-               id="viewpoint"
-	       name="viewpoint">
+    <component class="defaultpackage.Activator"
+               id="basicfamily-viewpoint"
+	       name="basicfamily">
     </component>
   </extension>
 </plugin>
