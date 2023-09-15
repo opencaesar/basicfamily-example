@@ -1,4 +1,4 @@
-description <http://example.com/description/family1#> as starter {
+description <http://example.com/description/family1#> as family1 {
 
 	uses <http://example.com/vocabulary/basicfamily#> as basicfamily
 
