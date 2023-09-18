@@ -16,14 +16,14 @@ vocabulary <http://example.com/vocabulary/basicfamily#> as basicfamily {
 		restricts parents to max 2
 	]
 
-	concept Man < Person
-
-	concept Woman < Person
-
 	relation members [
 		from Family
 		to Person
 	]
+
+	concept Man < Person
+
+	concept Woman < Person
 
 	relation parents [
 		from Person

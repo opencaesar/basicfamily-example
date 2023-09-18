@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basicfamily" version="12.0.0.2017041100">
   <ownedViewpoints name="persons" modelFileExtension="oml">
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Persons diagram" domainClass="oml.ConceptInstance" preconditionExpression="aql:self.findIsKindOf('basicfamily:Family')">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Persons diagram" domainClass="oml.ConceptInstance" preconditionExpression="aql:self.findIsKindOf('basicfamily:Family')" enablePopupBars="true">
       <metamodel href="http://opencaesar.io/oml#/"/>
       <defaultLayer name="Default">
         <nodeMappings name="ManNode" preconditionExpression="aql:self.findIsKindOf('basicfamily:Man')" deletionDescription="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Recursive']" semanticCandidatesExpression="aql:self.findTargetInstances('basicfamily:members')" domainClass="oml.ConceptInstance">
@@ -16,18 +16,18 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <edgeMappings name="fatherEdge" deletionDescription="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Recursive']" sourceMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode'] //@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" targetMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']" targetFinderExpression="aql:self.findTargetInstances('basicfamily:father')">
+        <edgeMappings name="FatherEdge" deletionDescription="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Recursive']" sourceMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode'] //@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" targetMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']" targetFinderExpression="aql:self.findTargetInstances('basicfamily:father')">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
-            <centerLabelStyleDescription>
+            <centerLabelStyleDescription labelSize="12">
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="motherEdge" deletionDescription="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Recursive']" sourceMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode'] //@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" targetMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" targetFinderExpression="aql:self.findTargetInstances('basicfamily:mother')">
+        <edgeMappings name="MotherEdge" deletionDescription="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Recursive']" sourceMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode'] //@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" targetMapping="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" targetFinderExpression="aql:self.findTargetInstances('basicfamily:mother')">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
-            <centerLabelStyleDescription>
+            <centerLabelStyleDescription labelSize="12">
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </centerLabelStyleDescription>
           </style>
@@ -45,7 +45,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="createWoman" label="Woman" nodeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" iconPath="/basicfamily-viewpoint/icons/woman.gif">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createWoman" label="Woman" nodeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" iconPath="/basicfamily-viewpoint/icons/man.gif">
             <variable name="container">
               <subVariables xsi:type="tool_1:AcceleoVariable" name="context" computationExpression="aql:container.getDescription()"/>
               <subVariables xsi:type="tool_1:AcceleoVariable" name="containerInstance" computationExpression="aql:container.oclAsType(oml::ConceptInstance)"/>
@@ -57,7 +57,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Father" edgeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']" iconPath="/basicfamily-viewpoint/icons/father.png">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="createFather" label="Father" edgeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='FatherEdge']" iconPath="/basicfamily-viewpoint/icons/father.png">
             <sourceVariable name="source">
               <subVariables xsi:type="tool_1:AcceleoVariable" name="context" computationExpression="aql:source.getDescription()"/>
               <subVariables xsi:type="tool_1:AcceleoVariable" name="sourceInstance" computationExpression="aql:source.oclAsType(oml::ConceptInstance)"/>
@@ -71,7 +71,7 @@
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:context.addPropertyValue(sourceInstance, 'basicfamily:father', targetInstance)"/>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Mother" edgeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']" iconPath="/basicfamily-viewpoint/icons/mother.png">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="createMother" label="Mother" edgeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='MotherEdge']" iconPath="/basicfamily-viewpoint/icons/mother.png">
             <sourceVariable name="source">
               <subVariables xsi:type="tool_1:AcceleoVariable" name="context" computationExpression="aql:source.getDescription()"/>
               <subVariables xsi:type="tool_1:AcceleoVariable" name="sourceInstance" computationExpression="aql:source.oclAsType(oml::ConceptInstance)"/>
@@ -96,7 +96,7 @@
           <ownedTools xsi:type="tool_1:OperationAction" name="Cascade Delete" precondition="aql:self.oclAsType(oml::ConceptInstance).findIsKindOf('basicfamily:Person')">
             <view name="views"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.cascadeDelete()"/>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.oclAsType(oml::ConceptInstance).cascadeDelete()"/>
             </initialOperation>
           </ownedTools>
         </toolSections>
@@ -104,7 +104,7 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="Persons table" preconditionExpression="aql:self.findIsKindOf('basicfamily:Family')" domainClass="oml.ConceptInstance">
       <metamodel href="http://opencaesar.io/oml#/"/>
-      <ownedLineMappings name="PersonLine" domainClass="oml.ConceptInstance" semanticCandidatesExpression="aql:self.findTargetInstances('basicfamily:members')" headerLabelExpression="feature:name">
+      <ownedLineMappings name="PersonLine" domainClass="oml.ConceptInstance" semanticCandidatesExpression="aql:self.findTargetInstances('basicfamily:members')">
         <defaultForeground labelSize="11">
           <foreGroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
         </defaultForeground>
@@ -136,12 +136,12 @@
           <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:context.getNewMemberName('woman')"/>
         </firstModelOperation>
       </ownedCreateLine>
-      <ownedColumnMappings name="fatherCol" headerLabelExpression="Father" featureName="name" featureParentExpression="aql:self.findTargetInstance('basicfamily:father')"/>
-      <ownedColumnMappings name="motherCol" headerLabelExpression="Mother" featureName="name" featureParentExpression="aql:self.findTargetInstance('basicfamily:mother')"/>
-      <ownedColumnMappings name="childrenCol" headerLabelExpression="Children" featureName="*" labelExpression="aql:self.findTargetInstances('basicfamily:children')->size()"/>
-      <ownedColumnMappings name="slblingsCol" headerLabelExpression="Siblings" featureName="*" labelExpression="aql:self.calculateSiblingsCount()"/>
+      <ownedColumnMappings name="FatherColumn" headerLabelExpression="Father" featureName="name" featureParentExpression="aql:self.findTargetInstance('basicfamily:father')"/>
+      <ownedColumnMappings name="MotherColumn" headerLabelExpression="Mother" featureName="name" featureParentExpression="aql:self.findTargetInstance('basicfamily:mother')"/>
+      <ownedColumnMappings name="ChildrenColumn" headerLabelExpression="Children" featureName="*" labelExpression="aql:self.findTargetInstances('basicfamily:children')->size()"/>
+      <ownedColumnMappings name="SiblingsColumn" headerLabelExpression="Siblings" featureName="*" labelExpression="aql:self.calculateSiblingsCount()"/>
     </ownedRepresentations>
-    <ownedJavaExtensions qualifiedClassName="viewpoint.Services"/>
+    <ownedJavaExtensions qualifiedClassName="defaultpackage.Services"/>
     <ownedJavaExtensions qualifiedClassName="io.opencaesar.oml.util.OmlRead"/>
     <ownedJavaExtensions qualifiedClassName="io.opencaesar.oml.util.OmlSearch"/>
     <ownedJavaExtensions qualifiedClassName="io.opencaesar.oml.util.OmlDelete"/>

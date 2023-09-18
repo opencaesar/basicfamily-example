@@ -11,11 +11,18 @@ import io.opencaesar.oml.util.OmlDelete.CascadeRule;
 import io.opencaesar.oml.util.OmlRead;
 import io.opencaesar.rosetta.sirius.viewpoint.OmlServices;
 
-/**
- * The services class used by VSM.
- */
 public class Services {
     
+    public void cascadeDelete(NamedInstance instance) {
+    	var cascadeRules = new ArrayList<CascadeRule>();
+    	
+    	Relation parents = (Relation) OmlRead.getMemberByAbbreviatedIri(instance.getOntology(), "basicfamily:parents");
+    	cascadeRules.add(new CascadeRule(CascadeDirection.TARGET_TO_SOURCE, null, parents, null, "delete children"));
+    	
+    	var result = OmlDelete.cascadeDelete(instance, cascadeRules);
+    	OmlDelete.recursiveDelete(result);
+    }
+
     public int calculateSiblingsCount(NamedInstance self) {
     	var siblings = new HashSet<>();
 
@@ -27,15 +34,5 @@ public class Services {
     	siblings.remove(self);
     	
     	return siblings.size();
-    }
-    
-    public void cascadeDelete(NamedInstance instance) {
-    	var cascadeRules = new ArrayList<CascadeRule>();
-    	
-    	Relation parents = (Relation) OmlRead.getMemberByAbbreviatedIri(instance.getOntology(), "basicfamily:parents");
-    	cascadeRules.add(new CascadeRule(CascadeDirection.TARGET_TO_SOURCE, null, parents, null, "delete children"));
-    	
-    	var result = OmlDelete.cascadeDelete(instance, cascadeRules);
-    	OmlDelete.recursiveDelete(result);
     }
 }

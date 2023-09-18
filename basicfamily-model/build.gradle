@@ -92,7 +92,7 @@ task owlReason(type:io.opencaesar.owl.reason.OwlReasonTask, group:"oml", depends
     ]
     // Junit error report
     reportPath = file('build/reports/reasoning.xml')
-    // use unique names
+	// use unique name assumption
     uniqueNames = true
 }
 

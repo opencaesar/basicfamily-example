@@ -1,13 +1,17 @@
 PREFIX basicfamily:        <http://example.com/vocabulary/basicfamily#>
 
-SELECT DISTINCT ?person ?cousin
+SELECT DISTINCT ?person (COUNT(?cousin) as ?cousins)
 WHERE {
-	?person basicfamily:cousin ?cousin .
-
-	# ?person basicfamily:parents ?parent .
-	# ?parent basicfamily:parents ?grandparent .
-	# ?grandparent basicfamily:children ?uncleOrAunt .
-	# FILTER(?uncleOrAunt != ?parent)
-	# ?uncleOrAunt basicfamily:children ?cousin .
+	?person a basicfamily:Person .
+	OPTIONAL {
+		?person basicfamily:cousin ?cousin
+		
+		# ?person basicfamily:parents ?parent .
+		# ?parent basicfamily:parents ?grandparent .
+		# ?grandparent basicfamily:children ?uncleOrAunt .
+		# ?uncleOrAunt basicfamily:children ?cousin .
+		# FILTER(?uncleOrAunt != ?parent)
+	}
 }
-ORDER BY ?person ?cousin
+GROUP BY ?person
+ORDER BY ?person
