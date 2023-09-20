@@ -11,7 +11,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.sirius,
  org.eclipse.sirius.common.acceleo.aql,
  io.opencaesar.oml;bundle-version="2.4.0",
- io.opencaesar.rosetta.sirius.viewpoint;bundle-version="2.3.1"
+ io.opencaesar.rosetta.sirius.viewpoint;bundle-version="2.4.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-Vendor: %providerName
