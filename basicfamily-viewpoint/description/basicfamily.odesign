@@ -45,7 +45,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="createWoman" label="Woman" nodeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" iconPath="/basicfamily-viewpoint/icons/man.gif">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createWoman" label="Woman" nodeMappings="//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']" iconPath="/basicfamily-viewpoint/icons/woman.gif">
             <variable name="container">
               <subVariables xsi:type="tool_1:AcceleoVariable" name="context" computationExpression="aql:container.getDescription()"/>
               <subVariables xsi:type="tool_1:AcceleoVariable" name="containerInstance" computationExpression="aql:container.oclAsType(oml::ConceptInstance)"/>
