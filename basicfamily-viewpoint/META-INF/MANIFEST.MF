@@ -13,6 +13,6 @@ Require-Bundle: org.eclipse.ui,
  io.opencaesar.oml,
  io.opencaesar.rosetta.sirius.viewpoint
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-Vendor: %providerName
 Automatic-Module-Name: basicfamily-viewpoint
