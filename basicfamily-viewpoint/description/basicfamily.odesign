@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basicfamily" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basicfamily" version="15.4.0.202401051836">
   <ownedViewpoints name="persons" modelFileExtension="oml">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Persons diagram" domainClass="oml.ConceptInstance" preconditionExpression="aql:self.findIsKindOf('basicfamily:Family')" enablePopupBars="true">
       <metamodel href="http://opencaesar.io/oml#/"/>
@@ -138,7 +138,7 @@
       </ownedCreateLine>
       <ownedColumnMappings name="FatherColumn" headerLabelExpression="Father" featureName="name" featureParentExpression="aql:self.findTargetInstance('basicfamily:father')"/>
       <ownedColumnMappings name="MotherColumn" headerLabelExpression="Mother" featureName="name" featureParentExpression="aql:self.findTargetInstance('basicfamily:mother')"/>
-      <ownedColumnMappings name="ChildrenColumn" headerLabelExpression="Children" featureName="*" labelExpression="aql:self.findTargetInstances('basicfamily:children')->size()"/>
+      <ownedColumnMappings name="ChildrenColumn" headerLabelExpression="Children" featureName="*" labelExpression="aql:self.findSourceInstances('basicfamily:parents')->size()"/>
       <ownedColumnMappings name="SiblingsColumn" headerLabelExpression="Siblings" featureName="*" labelExpression="aql:self.calculateSiblingsCount()"/>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="defaultpackage.Services"/>

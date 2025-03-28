@@ -28,7 +28,7 @@ public class Services {
 
     	var parents = OmlServices.findTargetInstances(self, "basicfamily:parents");
     	for (var parent : parents) {
-    		siblings.addAll(OmlServices.findTargetInstances(parent, "basicfamily:children"));
+    		siblings.addAll(OmlServices.findSourceInstances(parent, "basicfamily:parents"));
     	}
     	
     	siblings.remove(self);
